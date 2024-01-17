@@ -27,7 +27,7 @@ type Userdata struct {
 
 func openConnection() (*sql.DB, error) {
 	conn := fmt.Sprintf(
-		"host=%s port=%d password=%s dbname=%s sslmode=disable",
+		"host=%s port=%d user=%s password=%s dbname=%s sslmode=disable",
 		Hostname,
 		Port,
 		Username,
