@@ -1,4 +1,4 @@
-module pg_cool
+module github.com/scorp249/pg_cool
 
 go 1.21.3
 
